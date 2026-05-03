@@ -1,0 +1,16 @@
+int fib(int n) {
+    if (n < 2) {
+        return n
+    }
+    return fib(n - 1) + fib(n - 2)
+}
+
+int N = 10
+int start = os.clock()
+int result = 0
+for (int i = 1; i <= N; i = i + 1) {
+    result = result + fib(30)
+}
+int elapsed = os.clock() - start
+print("result = ", result)
+print("time = ", elapsed, "seconds")

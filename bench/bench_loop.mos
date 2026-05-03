@@ -1,0 +1,9 @@
+int N = 10000000
+int start = os.clock()
+int sum = 0
+for (int i = 1; i <= N; i = i + 1) {
+    sum = sum + i
+}
+int elapsed = os.clock() - start
+print("sum = ", sum)
+print("time = ", elapsed, "seconds")

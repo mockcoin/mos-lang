@@ -1,0 +1,8 @@
+int N = 100000000
+int sum = 0
+int start = os.clock()
+for (int i = 1; i <= N; i = i + 1) {
+    sum = sum + i
+}
+int elapsed = os.clock() - start
+print("Mos for loop: sum=", sum, " time=", elapsed)

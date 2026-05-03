@@ -1,0 +1,3 @@
+// Test: simple variable
+int a = 255
+print(a)

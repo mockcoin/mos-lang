@@ -1,0 +1,9 @@
+// Test: Logical Operators
+bool p = true
+bool q = false
+bool r1 = p and q
+print(r1)
+bool r2 = p or q
+print(r2)
+bool r3 = not p
+print(r3)

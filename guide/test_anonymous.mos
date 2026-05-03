@@ -1,0 +1,7 @@
+// Test: 匿名函数定义
+f = function(int x) {
+    return x * 2
+}
+
+int result = f(5)
+print("result =", result)

@@ -1,0 +1,5 @@
+// Test: remainder variable
+int a = 10
+int b = 3
+int remainder = a % b
+print(remainder)

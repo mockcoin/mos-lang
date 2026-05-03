@@ -1,0 +1,3 @@
+// Test: simple shift
+int r = 255 << 2
+print(r)

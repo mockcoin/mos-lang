@@ -1,0 +1,15 @@
+// Test: Comparison Operators
+int a = 10
+int b = 3
+bool eq = (a == b)
+bool ne = (a ~= b)
+bool gt = (a > b)
+bool lt = (a < b)
+bool ge = (a >= b)
+bool le = (a <= b)
+print(eq)
+print(ne)
+print(gt)
+print(lt)
+print(ge)
+print(le)

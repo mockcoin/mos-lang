@@ -1,0 +1,9 @@
+// Test: Comments
+// This is a single line comment
+int x = 10  // this is also a comment
+/*
+This is a multi-line comment
+spanning multiple lines
+*/
+int y = 20
+print("x =", x, "y =", y)

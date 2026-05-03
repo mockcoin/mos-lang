@@ -1,0 +1,5 @@
+// Test: two variables
+int a = 10
+int b = 3
+print(a)
+print(b)

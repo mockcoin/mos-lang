@@ -1,0 +1,18 @@
+// Test: Class and Object
+class Person {
+    String name
+    int age
+    
+    void init(String n, int a) {
+        self.name = n
+        self.age = a
+    }
+    
+    String getName() {
+        return self.name
+    }
+}
+
+p = new Person("Alice", 30)
+name = p:getName()
+print(name)

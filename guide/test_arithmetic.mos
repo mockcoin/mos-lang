@@ -1,0 +1,14 @@
+// Test: Arithmetic Operators
+int a = 10
+int b = 3
+
+int sum = a + b
+print(sum)
+int diff = a - b
+print(diff)
+int product = a * b
+print(product)
+int quotient = a / b
+print(quotient)
+int remainder = a % b
+print(remainder)

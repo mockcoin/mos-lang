@@ -1,0 +1,3 @@
+// Test: simple mod
+int r = 10 % 3
+print(r)

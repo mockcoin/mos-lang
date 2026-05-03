@@ -1,0 +1,9 @@
+// Test: Variables and Types
+int x = 10
+float pi = 3.14
+String name = "Mos"
+bool flag = true
+print("x =", x)
+print("pi =", pi)
+print("name =", name)
+print("flag =", flag)

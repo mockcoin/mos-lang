@@ -1,0 +1,10 @@
+// Test: 02-language-spec.md 词法元素 - 注释
+// 这是单行注释
+int x = 10  // 这也是注释
+/*
+这是多行注释
+可以跨越多行
+*/
+int y = 20
+print("x =", x)
+print("y =", y)

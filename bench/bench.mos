@@ -1,0 +1,51 @@
+// MOS 性能基准测试
+
+// 测试 1: 算术运算 (1000万次)
+int N1 = 10000000
+float start1 = os.clock()
+int sum1 = 0
+for (int i = 1; i <= N1; i = i + 1) {
+    sum1 = sum1 + i
+    if (sum1 > 100000000) {
+        sum1 = sum1 - 100000000
+    }
+}
+float t1 = (os.clock() - start1) * 1000
+print("arithmetic:", t1, "ms")
+
+// 测试 2: 循环 (1亿次)
+int N2 = 100000000
+float start2 = os.clock()
+int sum2 = 0
+for (int i = 1; i <= N2; i = i + 1) {
+    sum2 = sum2 + i
+}
+float t2 = (os.clock() - start2) * 1000
+print("loop:", t2, "ms")
+
+// 测试 3: 函数调用 (5000万次)
+int add(int a, int b) {
+    return a + b
+}
+
+int N3 = 50000000
+float start3 = os.clock()
+int sum3 = 0
+for (int i = 1; i <= N3; i = i + 1) {
+    sum3 = sum3 + add(i, 1)
+}
+float t3 = (os.clock() - start3) * 1000
+print("function_call:", t3, "ms")
+
+// 测试 4: 简单循环 (200万次)
+int N4 = 2000000
+float start4 = os.clock()
+int sum4 = 0
+for (int i = 1; i <= N4; i = i + 1) {
+    sum4 = sum4 + 1
+}
+float t4 = (os.clock() - start4) * 1000
+print("simple_loop:", t4, "ms")
+
+float total = t1 + t2 + t3 + t4
+print("total:", total, "ms")

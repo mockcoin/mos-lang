@@ -1,0 +1,20 @@
+// Test: 函数定义
+int add(int a, int b) {
+    return a + b
+}
+
+void printHello() {
+    print("Hello!")
+}
+
+String greet(String name) {
+    return "Hello, " .. name
+}
+
+int result = add(10, 20)
+print("add(10, 20) =", result)
+
+printHello()
+
+String msg = greet("World")
+print(msg)

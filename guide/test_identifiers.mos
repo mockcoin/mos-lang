@@ -1,0 +1,9 @@
+// Test: Identifiers
+String name = "Mos"
+int count = 100
+bool my_var = true
+int _private = 42
+print("name =", name)
+print("count =", count)
+print("my_var =", my_var)
+print("_private =", _private)

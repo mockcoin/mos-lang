@@ -1,0 +1,4 @@
+// Test: two variables with shift
+int a = 255
+int r = a << 2
+print(r)

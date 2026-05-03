@@ -1,0 +1,10 @@
+int N = 100000000
+int a = 0
+int b = 1
+int c = 2
+int start = os.clock()
+for (int i = 1; i <= N; i = i + 1) {
+    a = a + b * c
+}
+int elapsed = os.clock() - start
+print("arith: a=", a, " time=", elapsed)

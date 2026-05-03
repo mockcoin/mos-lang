@@ -1,0 +1,5 @@
+// Test: shift then print
+int a = 255
+print(a)
+int r = a << 2
+print(r)
